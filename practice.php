@@ -5,6 +5,7 @@ echo 'hello php!';
 <?php
 $a = 4;
 $b = 7;
+
 echo $a+$b;
 ?>
 
@@ -35,6 +36,7 @@ $calendar_2018 = [
   "October" =>"10月",
   "November" =>"11月",
   "December" =>"12月",
+  
   ];
   
   echo $calendar_2018["December"];
