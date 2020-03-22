@@ -1,0 +1,61 @@
+<?php
+/*$name にあなたの名前を代入し、 if文で $name があなたの名前だったら 「私は あなたの名前 です」、
+もし違ったら「あなたの名前ではありません」と表示するように実装してください。*/
+
+$name = "aina";
+
+if ($name == "aina") {
+ echo "私はあなたの名前です";
+ } else {
+ echo "あなたの名前ではありません";
+  }
+?>
+
+<?php
+$name = "aina";
+
+switch ($name) {
+  case "aina":
+     echo "私はあなたの名前です";
+     break;
+   default:
+     echo "あなたの名前ではありません";
+     break;
+  }
+  ?>
+  
+
+<?php
+//for文を使って、1から10000までの合計の値を表示してください。
+
+for($i = 0; $i <= 10000; $i++){
+ echo  $i;
+ echo "\n";
+ }
+ ?>
+ 
+ <?php
+ //$fruits に配列で好きなフルーツを5個代入し、foreach文で順番に出力してください。
+ 
+ $fruits = array("banana", "orange", "watermelon", "starwberry", "apple",);
+ 
+ foreach($fruits as $fruits){
+  echo $fruits;
+  echo "\n";
+  }
+  ?>
+  
+<?php
+//次のプログラムのバグを修正し、1から100までの間で5の倍数のみ表示するようにしてみてください
+
+$start = 1;
+$end = 100;
+
+for($i = $start; $i <= $end; $i++){
+    if($i % 5 == 0){
+     echo $i;
+     echo "\n";
+    }
+    }
+?> 
+  
